@@ -21,7 +21,7 @@ export default class ReactNativeLogin extends Component {
     }
 
     componentWillMount() {
-        this._loadInitialState().done();
+        this._loadInitialState();
 
     }
     _loadInitialState = async () => {
